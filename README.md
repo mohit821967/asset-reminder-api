@@ -2,14 +2,17 @@
 
 A RESTful API to manage assets with service and expiration reminders. Built with Flask + SQLite.
 
+---
+
 ## ✅ Features
 
 - Create and track assets
 - Schedule service and expiration reminders
-- Automatic notification system
+- Automatic notification system (within 15 minutes)
 - Auto-logged violations for overdue service or expired assets
 - SQLite database
 - RESTful endpoints
+- Unit tests included
 
 ---
 
@@ -28,8 +31,8 @@ A RESTful API to manage assets with service and expiration reminders. Built with
 
 ## 📦 Setup Instructions
 
-### 1. Clone the repo
+### 🔧 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/asset-reminder-api.git
+git clone https://github.com/mohit821967/asset-reminder-api.git
 cd asset-reminder-api
